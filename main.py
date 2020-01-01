@@ -11,6 +11,10 @@ print('''
 9.fat_larg_plus
 10.tak_jomlei_mshtrk
 11.sqrt
+12.moraba
+13.mosalas
+14.zozanaqe
+15.info
 ''')
 option =int( input(">> "))
 if option == 1:
@@ -35,4 +39,12 @@ elif option == 10:
     tak_jomlei_mshtrk()
 elif option == 11:
     sqrt()
+elif option == 12:
+    moraba()
+elif option == 13:
+    musalas()
+elif option == 14:
+    zozanqe()
+elif option == 15:
+    info()
 else: print("wrong option")
