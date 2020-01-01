@@ -120,3 +120,29 @@ def sqrt():
     x= float(x)
     x=math.sqrt(x)
     print (x)
+def moraba():
+    x= input ("give me one side: ")
+    x= float(x)
+    p= x*x
+    print (p)
+def musalas():
+    A= input("give me A: ")
+    H=input("give me heigh : ")
+    a= float(A)
+    h= float(H)
+    x= a*h
+    k= x/2
+    print (k," cm")
+def zozanqe():
+    A= input("give me big side: ")
+    B=input ("give me small side: ")
+    H=input("give me heigh : ")
+    a= float(A)
+    b= float(B)
+    h= float(H)
+    x= a+b
+    k= x/2
+    calculate=k*h
+    print (calculate," cm")
+def info():
+    print ("creacte by mr_cyber83")
