@@ -47,4 +47,5 @@ elif option == 14:
     zozanqe()
 elif option == 15:
     info()
-else: print("wrong option")
+else:
+    print("wrong option")
